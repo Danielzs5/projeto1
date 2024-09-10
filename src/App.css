@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: aliceblue;
+}
+
+body {
+  background: linear-gradient( 
+    rgb(155, 76, 219) 0%,
+    rgb(51, 27, 88) 100%
+  )
+}
