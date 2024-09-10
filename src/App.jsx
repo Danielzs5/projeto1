@@ -1,8 +1,8 @@
 import React from 'react'
-import FirstComponent from './componente/FirstComponent'
+import FirstComponent from './components/FirstComponent'
 import './App.css'
-import SecondComponent from './componente/SecondComponent'
-import ThirdComponent from './componente/ThirdComponent'
+import SecondComponent from './components/SecondComponent'
+import ThirdComponent from './components/ThirdComponent'
 
 const App = () => {
   return (
