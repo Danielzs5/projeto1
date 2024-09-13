@@ -19,14 +19,14 @@ const FocusBlurExample = () => {
 
   return (
     <div style={{ padding: '20px', textAlign: 'center' }}>
-      <h2>React onFocus and onBlur Example</h2>
+      <h2>Digite</h2>
       <input
         type="text"
         value={inputValue}
         onFocus={handleFocus}
         onBlur={handleBlur}
         onChange={handleChange}
-        placeholder="Click or tab to focus"
+        placeholder="Click to type"
         style={{
           padding: '10px',
           fontSize: '16px',
@@ -34,9 +34,9 @@ const FocusBlurExample = () => {
         }}
       />
       <div style={{ marginTop: '20px' }}>
-        {isFocused ? <p>The input is focused!</p> : <p>The input is not focused.</p>}
+        {isFocused ? <p>Digitando...</p> : <p>Clique para digitar.</p>}
       </div>
-      <p>Input value: {inputValue}</p>
+      <p> "{inputValue}"</p>
     </div>
   );
 };

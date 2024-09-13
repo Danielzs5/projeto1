@@ -20,5 +20,13 @@ button {
     rgba(132, 53, 222, 1) 0%,
     rgba(184, 84, 232, 1) 100%
   );
+}
 
+button:hover {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(176, 114, 233)0%,
+    rgb(52, 8, 70)100% 
+  );
 }
