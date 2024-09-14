@@ -1,21 +1,29 @@
 import React from 'react'
 
+// Definindo o componente funcional chamado "FirstComponent"
 const FirstComponent = () => {
-const nome = "Daniel Francisco";
-const sobrenome = "E. de Sousa";
-const matricula = "2324290089";
-const professor = "Felipe Batista";
-const disciplina = "Construção de FrontEnd"
+  // Definindo algumas variáveis dentro do componente
+  const nome = "Daniel Francisco";
+  const sobrenome = "E. de Sousa";
+  const matricula = "2324290089";
+  const professor = "Felipe Batista";
+  const disciplina = "Construção de FrontEnd";
 
+  // O componente retorna um JSX que é renderizado na tela
   return (
-    <div> <h1> Bom dia!</h1>
+    <div> 
+      {/* Título da página */}
+      <h1> Bom dia!</h1>
         
-        <h3>Meu nome é {nome} e sobrenome {sobrenome}, com matrícula {matricula} <br />
+      {/* Texto com informações pessoais e da disciplina */}
+      <h3>
+        Meu nome é {nome} e sobrenome {sobrenome}, com matrícula {matricula} <br />
         Professor: {professor} <br />
         Disciplina: {disciplina} 
-        </h3>
+      </h3>
     </div>
   )
 }
 
+// Exportando o componente para ser utilizado em outras partes do projeto
 export default FirstComponent

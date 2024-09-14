@@ -12,8 +12,8 @@ const App = () => {
       <FirstComponent></FirstComponent>
       <SecondComponent></SecondComponent>
       <ThirdComponent></ThirdComponent>
-      <FifthComponent></FifthComponent>
       <FourthComponent></FourthComponent>
+      <FifthComponent></FifthComponent>
     </div>
   )
 }
